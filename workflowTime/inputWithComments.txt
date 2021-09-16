@@ -1,0 +1,28 @@
+# Number of nodes
+7
+# Duration of each node, in order 0, 1, 2, ...
+1
+2
+3
+4
+5
+6
+7
+# Number of parents
+6
+# List of parents
+1
+0
+3
+4
+2
+2
+# Number of children
+6
+# List of children
+0
+2
+4
+2
+5
+6
