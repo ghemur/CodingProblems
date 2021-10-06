@@ -15,12 +15,12 @@ public class Solution2 {
   public String solution(String s) {
     if (s == null || s.length() == 0) return ERR;
 
-    Scanner scanner= new Scanner(s);
-    Stack<Double> stack = new Stack<>();
+    Scanner scanner = new Scanner(s);
     String op = "+";  // implicit at the beginning of the expression
 
     if (!scanner.hasNextDouble())
       return ERR;
+
     double curr = scanner.nextDouble();  // first number
     double res = 0.0; // accummulates overal result
     double pri = curr; // accummulates priority expression (multiplications/divisions)

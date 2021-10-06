@@ -13,14 +13,16 @@ public class Solution1 {
   private static final String ERR = "NaN";
 
   public String solution(String s) {
+
     if (s == null || s.length() == 0) return ERR;
 
-    Scanner scanner= new Scanner(s);
+    Scanner scanner = new Scanner(s);
     Stack<Double> stack = new Stack<>();
     String op = "+";  // implicit at the beginning of the expression
 
     if (!scanner.hasNextDouble())
       return ERR;
+
     double curr = scanner.nextDouble();  // first number
     stack.push(curr);
 

@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.Stack;
 import java.util.regex.Pattern;
 
@@ -27,8 +26,8 @@ public class Solution3 {
     try {
       double res = compute(tokens);
       return res == Double.NEGATIVE_INFINITY || res == Double.POSITIVE_INFINITY ?
-          ERR:
-          String.valueOf(res);
+              ERR:
+              String.valueOf(res);
     } catch(Exception e) {
       return ERR;
     }
